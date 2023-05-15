@@ -1,0 +1,214 @@
+
+.nav-css{
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+.video-container {
+    z-index: -100;
+    width:100%;
+    height:auto;
+    overflow:hidden;
+    position:absolute;
+    top:0;
+    left:0;
+    }
+
+
+    /* 1366px 667px */
+        #video-bg{
+        max-width:100%;
+        height: auto;
+        position: relative;
+        }
+
+        
+            
+        #image-bg{
+            display: none;
+
+            
+            }
+            
+        @media screen and (max-width: 770px){
+            
+            #video-bg{
+            
+            display:none;
+            
+            } 
+        }
+
+        @media screen and (max-width: 770px){
+            #image-bg{
+                display: inline;
+                max-width:100%;
+                height: auto;
+                
+                }
+        }
+
+
+        @media screen and (max-width:445px) {
+            #middle-div{
+                margin-top: 5%;
+                margin-left: 3%;
+                font-size: 10px;
+
+            }
+        }
+
+    
+
+    #middle-div{
+        margin-top: 10%;
+        margin-left: 3%;
+        font-family: 'Playfair Display', serif;
+        font-size: 20px;
+
+    }
+
+    .search{
+        height: 6vh;
+        width: 60vh;
+        margin-left: 3%;
+        border-radius: 10px ;
+        border: solid green 1px;
+        font-family: 'Playfair Display', serif;
+
+    }
+
+    .card {
+        font-family: 'Playfair Display', serif;
+        background: rgb(182, 202, 171);
+        box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+      }
+
+    .card-div{
+        margin-top: 25%;
+    }
+
+
+
+    .smooth-offset-box-shadow:hover{
+        transition: all 1s;
+        box-shadow: 0 0 20px 20px #9c8b8b;
+    }
+
+    .aa{
+        background-color: rgb(231, 228, 228);
+        width: 100%;
+        font-family: 'Playfair Display', serif;
+        font-size: 25px;
+    }
+
+    .hel0{
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+
+      /* Style for larger screens */
+  @media (min-width: 768px) {
+    .hel0 {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+    }
+
+    .hel0 img {
+      max-width: 100%;
+      height: auto;
+    }
+  }
+  
+  /* Style for smaller screens */
+  @media (max-width: 767px) {
+    .hel0 {
+      text-align: center;
+    }
+
+    .hel0 img {
+      margin-top: 20px;
+      max-width: 100%;
+      height: auto;
+    }
+  }
+
+  /* For screens smaller than 576px */
+@media (max-width: 575.98px) {
+    .boxes {
+      margin-bottom: 20px;
+    }
+  }
+  
+  /* For screens between 576px and 767.98px */
+  @media (min-width: 576px) and (max-width: 767.98px) {
+    .row-cols-1 {
+      margin-left: -15px;
+      margin-right: -15px;
+    }
+    .boxes {
+      margin-bottom: 20px;
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+  }
+  
+  /* For screens between 768px and 991.98px */
+  @media (min-width: 768px) and (max-width: 991.98px) {
+    .row-cols-1 {
+      margin-left: -15px;
+      margin-right: -15px;
+    }
+    .boxes {
+      margin-bottom: 20px;
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+  }
+  
+  /* For screens between 992px and 1199.98px */
+  @media (min-width: 992px) and (max-width: 1199.98px) {
+    .row-cols-1 {
+      margin-left: -15px;
+      margin-right: -15px;
+    }
+    .boxes {
+      margin-bottom: 20px;
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+  }
+  
+  /* For screens 1200px and larger */
+  @media (min-width: 1200px) {
+    .row-cols-1 {
+      margin-left: -30px;
+      margin-right: -30px;
+    }
+    .boxes {
+      margin-bottom: 30px;
+      padding-left: 30px;
+      padding-right: 30px;
+    }
+  }
+
+  .card1 {
+    margin-left: 30%;
+    margin-bottom: 20%;
+    height: 30%;
+    width: 30%;
+    background-color: white;
+    justify-content: center;
+  }
+
+  .new{
+    font-family: 'Playfair Display', serif;
+    margin-left: 5%;
+  }
+
+
+
